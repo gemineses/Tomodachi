@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    display: inline-block;
+    margin: 20px;
+}
+
+
+body {
+    background-color: beige;
+}
+header, footer {
+    background-color:white;
+    width:100%;
+    margin: 20px auto;
+}
+header nav {
+    background-color:#3E7A72;
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+}
+ header nav ul li{
+     float: left;
+ }
+ header nav ul a {
+     padding: 15px 90px;
+     display: block ;
+     color: white;
+     text-decoration:none;
+     font-size: 20px;
+     font-weight: bold;
+ }
+ header nav ul a:hover{
+     cursor: pointer;
+     background:rgb(181, 212, 218);
+ }
