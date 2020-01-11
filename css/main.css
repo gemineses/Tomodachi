@@ -1,0 +1,15 @@
+a{
+    color: white;
+}
+
+a:hover{
+    color:white;
+}
+
+.bg-color-one{
+    background-color: #3E7A72;
+}
+
+.bg-color-two{
+    background-color: beige;
+}
