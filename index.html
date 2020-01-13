@@ -75,32 +75,9 @@
 
 			<!--Portfolio-->
 			<div id="portfolio">
-				<div class="portfolio-element">
-					asd
-				</div>
-				<div class="portfolio-element">
-					asd
-				</div>
-				<div class="portfolio-element">
-					asd
-				</div>
-				<div class="portfolio-element-large">
-					asd
-				</div>
-				<div class="portfolio-element">
-					asd
-				</div>
-				<div class="portfolio-element">
-					asd
-				</div>
-				<div class="portfolio-element">
-					asd
-				</div>
-				<div class="portfolio-element">
-					asd
-				</div>
-				<div class="portfolio-element">
-					asd
+				<div class="portfolio-element" v-for="element in portfolioElements">
+					<img v-bind:src="element.img" class="portfolio-img">
+					<div class="portfolio-text">{{element.text}}</div>
 				</div>
 			</div>
 			

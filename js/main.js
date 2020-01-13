@@ -4,13 +4,28 @@ var app = new Vue({
       message: 'que onda soy el nuevo mensaje',
       portfolioElements: [
           {
-            name: 'elemento1',
+            img: 'img/portfolio/elemento1.jpg',
+            text: 'elemento1',
             isActive: true
           }, {
-            name: 'elemento2',
-            isActive: false
+            img: 'img/portfolio/elemento2.jpg',
+            text: 'elemento2',
+            isActive: true
           }, {
-            name: 'elemento3',
+            img: 'img/portfolio/elemento3.jpg',
+            text: 'elemento2',
+            isActive: true
+          }, {
+            img: 'img/portfolio/elemento3.jpg',
+            text: 'elemento2',
+            isActive: true
+          }, {
+            img: 'img/portfolio/elemento3.jpg',
+            text: 'elemento2',
+            isActive: true
+          }, {
+            img: 'img/portfolio/elemento3.jpg',
+            text: 'elemento2',
             isActive: true
           }
         ]
