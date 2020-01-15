@@ -10,11 +10,12 @@ var app = new Vue({
         $.ajax({
           url: "https://curada.000webhostapp.com/hello.php", 
           crossDomain : true,
+          datatype: 'json',
           success: function(result){
             console.log(result)
-            self.portfolioElements = JSON.parse(result);
+            self.portfolioElements = JSON.parse(result)
             
-            console.log(result);
+            console.log(self.portfolioElements);
         }});
       }
     },
