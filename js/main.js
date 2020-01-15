@@ -11,7 +11,9 @@ var app = new Vue({
           url: "https://curada.000webhostapp.com/hello.php", 
           crossDomain : true,
           success: function(result){
-            self.portfolioElements = result;
+            console.log(result)
+            self.portfolioElements = JSON.parse(result);
+            
             console.log(result);
         }});
       }
