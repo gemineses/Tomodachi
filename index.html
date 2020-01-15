@@ -75,9 +75,9 @@
 
 			<!--Portfolio-->
 			<div id="portfolio">
-				<div class="portfolio-element" v-for="element in portfolioElements">
-					<img v-bind:src="element.img" class="portfolio-img">
-					<div class="portfolio-text">{{element.text}}</div>
+				<div class="portfolio-element" v-for="(pic, index) in portfolioElements" :key="index">
+					<img v-bind:src="GetImageURL(pic)" class="portfolio-img">
+					<div class="portfolio-text">{{pic.text}}</div>
 				</div>
 			</div>
 			
