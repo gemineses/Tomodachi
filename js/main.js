@@ -8,7 +8,7 @@ var app = new Vue({
       callPortfolio: function(){
         let self = this;
         $.ajax({
-          url: "https://curada.000webhostapp.com/js/json/portfolio.json", 
+          url: "https://curada.000webhostapp.com/hello.php", 
           crossDomain : true,
           success: function(result){
             self.portfolioElements = result;

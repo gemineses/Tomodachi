@@ -1,5 +1,5 @@
 <?php
-
+header('Access-Control-Allow-Origin: *');
 echo "[
     {
     img: 'img/portfolio/elemento1.jpg',
