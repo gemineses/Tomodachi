@@ -1,6 +1,6 @@
 /*carrusel*/
 .slider {
-	width: 95%;
+	width: 100%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -20,9 +20,8 @@
 
 .slider img {
     width: 100%;
-    height:55%;
-    background-color:#3E7A72;
-    border-radius: 15px;
+    height:60%;
+	background-color:#3E7A72;
 }
 
 @keyframes cambio {
