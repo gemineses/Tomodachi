@@ -1,5 +1,5 @@
 //const BASEURL = "https://curada.000webhostapp.com/";
-const BASEURL = window.location.protocol + '//' + window.location.hostname;
+const BASEURL = window.location.protocol + '//' + window.location.hostname + '/';
 
 var app = new Vue({
     el: '#app',
